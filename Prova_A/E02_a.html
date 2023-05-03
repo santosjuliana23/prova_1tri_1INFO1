@@ -1,16 +1,7 @@
 <script>
-    /*
-    PROBLEMA: Pesquisa de preço
-    Uma pessoa deseja realizar pesquisa de preço em três diferentes postos de combustível.
-    Peça para o usuário informar cada um dos valores pesquisados. Calcule e apresente a média do preço do combustível.
-    */
-
-    //ENTRADA
-
-
-    //PROCESSAMENTO
-
-
-    //SAÍDA
-
+    const preço1 = Number( prompt(`informe o preço do primeiro posto`))
+    const preço2 = Number ( prompt (`informe o valor do segundo posto`))
+    const preço3 = Number ( prompt(`informe o valor do terceiro posto`))
+    const soma = (preço1 + preço2 + preço3) /3
+    document.write(`a media do combustível é ${soma.toFixed(2).replace(2)}`)
 </script>
